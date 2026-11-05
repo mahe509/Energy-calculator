@@ -10,7 +10,7 @@ import pandas as pd
 # ============================================================
 
 st.set_page_config(
-    page_title="AMD AI Energy & Carbon Calculator",
+    page_title="AI Energy & Carbon Calculator",
     page_icon="⚡",
     layout="wide"
 )
