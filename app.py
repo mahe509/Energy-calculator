@@ -366,11 +366,7 @@ st.markdown(
     
 
     <div class="amd-header">
-        <img
-            src="{AMD_LOGO}"
-            class="amd-logo"
-            alt="AMD"
-        />
+        
         <div class="amd-title">
             AMD AI Energy & Carbon Calculator
         </div>
