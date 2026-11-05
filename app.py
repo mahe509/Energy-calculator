@@ -313,11 +313,10 @@ def update_model_defaults():
 # AMD BLACK HEADER BAR
 # ============================================================
 
-AMD_LOGO = "https://tse1.mm.bing.net/th/id/OIP.-RXYqe3IgpK5d1m-UdL8XAHaC2?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
-AMD_ICON="https://th.bing.com/th/id/OIP.7_59SilB77D_CHSuzIJRiwHaFj?w=250&h=187&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
+#AMD_LOGO = "https://tse1.mm.bing.net/th/id/OIP.-RXYqe3IgpK5d1m-UdL8XAHaC2?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+#AMD_ICON="https://th.bing.com/th/id/OIP.7_59SilB77D_CHSuzIJRiwHaFj?w=250&h=187&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
 st.set_page_config(
     page_title="AMD AI Energy & Carbon Calculator",
-    page_icon=AMD_ICON,
     layout="wide"
 )
 st.markdown(
