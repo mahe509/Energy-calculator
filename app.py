@@ -319,61 +319,6 @@ st.set_page_config(
     page_title="AMD AI Energy & Carbon Calculator",
     layout="wide"
 )
-st.markdown(
-    f"""
-    <style>
-        /* Remove Streamlit top padding */
-        .block-container {{
-            padding-top: 0rem !important;
-        }}
-
-        /* AMD Header */
-        .amd-header {{
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 70px;
-            background-color: #000000;
-            display: flex;
-            align-items: center;
-            padding-left: 30px;
-            z-index: 999999;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.35);
-        }}
-
-        .amd-logo {{
-            height: 42px;
-            width: auto;
-            object-fit: contain;
-        }}
-             /* Application Title */
-        .amd-title {{
-            color: #ffffff !important;
-            font-size: 24px;
-            font-weight: 600;
-            margin-left: 25px;
-            line-height: 1;
-            white-space: nowrap;
-        }}
-
-        /* Push application content below fixed header */
-        .main .block-container {{
-            padding-top: 90px !important;
-        }}
-    </style>
-
-    
-
-    <div class="amd-header">
-        
-        <div class="amd-title">
-            AMD AI Energy & Carbon Calculator
-        </div>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
 
 st.caption(
     "AMD Instinct GPU | Token-based workload estimation"
